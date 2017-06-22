@@ -11,3 +11,10 @@ def index(request):
 	data['object_list'] = Post.objects.all().order_by('-id')
 	template_name = 'index.html'
 	return render(request, template_name, data)
+
+def noticia_detalle(request):
+  #return render(request, 'index.html', {})
+	data = {}
+	data['object_list'] = Post.objects.all().order_by('-id')
+	template_name = 'noticia_detalle.html'
+	return render(request, template_name, data)

@@ -36,7 +36,7 @@
                 <span class="icon-bar"></span>
               </button>
               <!-- <a class="navbar-brand" href="#">Brand</a> -->
-              <a href="index.html" class="navbar-brand brand">
+              <a href="{% url 'index' %}"  class="navbar-brand brand">
                 <img src="images/logo_3.png" alt="Logo UNAB" >
               </a>
 
@@ -47,7 +47,7 @@
               
         
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
+                <li><a href="{% url 'index' %}">Home</a></li>
                 <li><a href="#">Nosotros</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>

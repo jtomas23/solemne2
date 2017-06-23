@@ -31,11 +31,12 @@
                 <span class="icon-bar"></span>
               </button>
               <!-- <a class="navbar-brand" href="#">Brand</a> -->
-              <a href="index.html" class="navbar-brand brand">
+              <a href="{% url 'index' %}" class="navbar-brand brand">
                 <img src="images/logo_3.png" alt="Logo UNAB" >
               </a>
 
             </div>
+
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -96,32 +97,7 @@
                 <p><span class="label label-info">{{post.published_date}}</span></p>
               </div>
               {% endfor %}
-             <!-- <div class="col-xs-6 col-sm-4">
-                <img src="http://placehold.it/500x300" alt="" class="img-responsive img-thumbnail">
-                <p><a href="noticia_detalle.html">Nisi molestias voluptatum vitae </a></p>
-                <p><span class="label label-info">Educación</span></p>
-              </div>
-              <div class="col-xs-6 col-sm-4">
-                <img src="http://placehold.it/500x300" alt="" class="img-responsive img-thumbnail">
-                <p><a href="noticia_detalle.html">Voluptatum vitae debitis voluptatibus</a></p>
-                <p><span class="label label-info">Noticias</span></p>
-              </div>              
 
-              <div class="col-xs-6 col-sm-4">
-                <img src="http://placehold.it/500x300" alt="" class="img-responsive img-thumbnail">
-                <p><a href="noticia_detalle.html">Molestias voluptatum vitae debitis</a></p>
-                <p><span class="label label-info">Educación</span></p>
-              </div>
-              <div class="col-xs-6 col-sm-4">
-                <img src="http://placehold.it/500x300" alt="" class="img-responsive img-thumbnail">
-                <p><a href="noticia_detalle.html">Nisi molestias voluptatum</a></p>
-                <p><span class="label label-info">Educación</span></p>
-              </div>
-              <div class="col-xs-6 col-sm-4">
-                <img src="http://placehold.it/500x300" alt="" class="img-responsive img-thumbnail">
-                <p><a href="noticia_detalle.html">Voluptatibus consectetur adipisicing elit</a></p>
-                <p><span class="label label-info">Educación</span></p>
-              </div> -->             
             </div>
           </div>
         </div>

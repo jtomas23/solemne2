@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'solemne2'
+    'solemne2',
+    'sorl.thumbnail',
 ]
 
 MIDDLEWARE = [

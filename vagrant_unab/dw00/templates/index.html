@@ -91,8 +91,9 @@
               {% for post in object_list %}
               <div class="col-xs-6 col-sm-4">
                 <img src="http://placehold.it/500x300" alt="" class="img-responsive img-thumbnail">
-                <p><a href="{% url 'noticia_detalle' %}">{{post.title}} </a></p>
+                <p><a href="{% url 'noticia_detalle' post.id %}">{{post.title}} </a></p>
                 <p><span class="label label-info">{{post.category}}</span></p>
+                <p><span class="label label-info">{{post.published_date}}</span></p>
               </div>
               {% endfor %}
              <!-- <div class="col-xs-6 col-sm-4">
